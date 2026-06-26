@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/data-iledefrance",
+  "title": "Data Iledefrance",
+  "description": "Île-de-France Open Data (data.iledefrance.fr) — OpenDataSoft MCP.",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/data-iledefrance",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-data-iledefrance",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/data-iledefrance/mcp"
+    }
+  ]
+}
