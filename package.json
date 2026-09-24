@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-data-iledefrance",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Île-de-France Open Data (data.iledefrance.fr) — OpenDataSoft MCP.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-data-iledefrance": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "data-iledefrance"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-data-iledefrance"
+    "url": "git+https://github.com/pipeworx-io/mcp-data-iledefrance.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-573d19eafdd9e49816ab195287056367082d66056c14aba6a41de7095a6d2e67",
+    "sourceCommit": "839ab210d969ef7f822cd747ea516f6bb49e9231"
   }
 }
