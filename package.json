@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-data-iledefrance",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Île-de-France Open Data (data.iledefrance.fr) — OpenDataSoft MCP.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "data-iledefrance",
     "gatewaySlug": "data-iledefrance",
-    "sourceHash": "v1-b295fd7b1cabf9a7ef0d3f2055ae32b10cca6342f099e6b9345e071481a2ecf1",
-    "sourceCommit": "0b3faaa4d85299a961dd86dea75a0f0e1dad280c"
+    "sourceHash": "v1-39b0ba2a7333cdfc4ff08523e245ab18b78b0f5f612943854c1b4ce9a2b51be5",
+    "sourceCommit": "5ce1a05186d46479e23865c66bdb8579d8de445e"
   }
 }
